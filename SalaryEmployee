@@ -1,0 +1,11 @@
+
+public class SalaryEmployee extends Employee{
+
+  private double yearlySalary;
+  
+  public SalaryEmployee(String name, String address, String tfn, double ySalary){
+      super(name,address,tfn);
+      yearlySalary = ySalary;
+      }
+      
+  }
