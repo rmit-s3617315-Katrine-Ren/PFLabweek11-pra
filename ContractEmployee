@@ -6,6 +6,9 @@ public class ContractEmployee extends Employee{
     public ContractEmployee(String name, String address, String tfn, double hRate){
       super(name,address,tfn);
       hourlyRate = hRate;
+       System.out.printf("Initilize the Person object with name: " + "%s and address %s\n", name, address + "with hourly tate);
       }
+      
+      
       
    }
