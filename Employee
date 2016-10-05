@@ -1,0 +1,13 @@
+
+public abstract class Employee extends Person{
+
+  private String taxFileNumber;// TFN would not be use to do any caluculation so it should be the String
+  
+  public Employee(String name, String adderess, String tfn){
+      super(name,address);
+      taxFileNumber = tfn;
+      }
+      
+    }
+    // you cannot instanize any object of this class
+    // you can extend an abstract class from another abstract class
