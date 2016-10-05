@@ -7,10 +7,12 @@ public abstract class Person{
       super( );
       this.name = name;
       this.address = address;
+      System.out.printf("Initilize the Person object with name: " + "%s and address %s\n", name, address);// although the person class 
+      //abstract class, it should also include the print statement as the print is designed to embedded the constructor.
       }
       
       // or use different name in the parameters;
       // this refer to the variable of the class;
       
       
-      System.out.printf("Initilize the Person object with name: " + "%s and address %s\n", name, address);
+      
