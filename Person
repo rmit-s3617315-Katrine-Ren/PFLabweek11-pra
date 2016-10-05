@@ -13,3 +13,4 @@ public abstract class Person{
       // this refer to the variable of the class;
       
       
+      System.out.printf("Initilize the Person object with name: " + "%s and address %s\n", name, address);
