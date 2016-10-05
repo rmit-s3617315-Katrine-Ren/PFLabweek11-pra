@@ -1,0 +1,12 @@
+
+public class FracSalaryEmployee extends SalaryEmployee{
+
+      private double load;
+      
+      public FracSalaryEmployee(String name, String address, String tfn, double ySalary, double load){
+      
+     super(name,address, tfn, ySalary);
+     this.load = load;
+     }
+     
+   }
