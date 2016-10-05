@@ -1,0 +1,15 @@
+public abstract class Person{
+  
+  private String name;
+  private String address;
+  
+  public Person(String name, String address){
+      super( );
+      this.name = name;
+      this.address = address;
+      }
+      
+      // or use different name in the parameters;
+      // this refer to the variable of the class;
+      
+      
