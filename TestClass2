@@ -1,0 +1,32 @@
+
+public static void main(String[]arg){
+      Person[] attendee = new Person[5];
+      attendees[0] = new Student("Tom", "23 Kings St","CS"  );
+      attendees[1] = new Student("Cindy", "24 La Trobe St","CS"  );
+      attendees[2] = new SalaryEmployee("Gigi", "56 Queen St","889 332 191",5000 );
+      attendees[3] = new ContractEmployee("Geogre", "123 William St","868 999 131",90 );
+      attendees[4] = new FracSalaryEmployee("Tom", "23 Kings St","345 999 101", 700, 10);
+      
+      for (int i = 0; i < attendees.length; i++){
+      System.out.println(attendees[i].getName());
+      // the getName( ){ return name;} should be created in the Person class
+        if(attendees[i] instance of Student){
+          System.out.prinf("attendees[%d] refers to a Student object," i);
+          } else if(attendees[i] instance of FracSalaryEmployee){
+            System.out.prinf("attendees[%d] refers to a Fractional Salary Employeet object," i);
+            // Since the FracEmployee is extends 
+            // SalaryEmployee, it should be put before the parent class
+            System.out.println(attendees[i].getLoad());
+            // the getLoad( ){ return load;} should be created in the FracSalaryEmployee class
+            //Since the if (  ) has return TURE here, the getLoad( ) can be access
+            }else if(attendees[i] instance of SalaryEmployee){
+            System.out.prinf("attendees[%d] refers to a Salary Employee object," i);
+            }else if(attendees[i] instance of ContractEmployee){
+            System.out.prinf("attendees[%d] refers to a Contract Employee object," i);
+            
+             System.out.println(attendees[i].getTFN());// the getTFN( ){ return taxFileNumber;} should be created in the Employee class
+            }
+            
+            // use 'instanceof' make sure the right can get access to the method
+            //Most Exception is the actually the run-time error!!
+      
